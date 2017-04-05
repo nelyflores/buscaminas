@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Buscaminas</title>
+</head>
+<style>
+  h1 {
+    background: #f00;
+    padding: .15em .5em;
+    text-align: center;
+    transform: skew(-15deg);
+  }
+  h1 span {
+    color: #fff;
+    transform: skew(15deg);
+  }
+</style>
+<body>
+    <table align="center">
+        <tr>
+            <td colspan="4">
+                <h1><span >Buscaminas</span></h1>
+            </td>
+        </tr>
+        <tr>
+            <td><button  class="numero" value="1" style="width:50px; height: 50px"></button></td>
+            <td><button  class="numero" value="1" style="width:50px; height: 50px"></button></td>
+            <td><button  class="numero" value="2" style="width:50px; height: 50px"></button></td>
+            <td><button  class="bomba" value="b" style="width:50px; height: 50px"></button></td>
+        </tr>
+        <tr>
+            <td><button  class="numero" value="1" style="width:50px; height: 50px"></button></td>
+            <td><button  class="bomba" value="b" style="width:50px; height: 50px"></button></td>
+            <td><button  class="numero" value="3" style="width:50px; height: 50px"></button></td>
+            <td><button  class="numero" value="2" style="width:50px; height: 50px"></button></td>
+        </tr>
+        <tr>
+            <td><button  class="numero" value="1" style="width:50px; height: 50px"></button></td>
+            <td><button  class="numero" value="2" style="width:50px; height: 50px"></button></td>
+            <td><button  class="bomba" value="b" style="width:50px; height: 50px"></button></td>
+            <td><button  class="numero" value="1" style="width:50px; height: 50px"></button></td>
+        </tr>
+        <tr>
+            <td><button  class="vacio" value="" style="width:50px; height: 50px"></button></td>
+            <td><button  class="vacio" value="" style="width:50px; height: 50px"></button></td>
+            <td><button  class="numero" value="1" style="width:50px; height: 50px"></button></td>
+            <td><button  class="vacio" value="" style="width:50px; height: 50px"></button></td>
+        </tr>
+    </table><br>
+    <h1><span  id="reiniciar" > ClicK para Reiniciar</span></h1>
+    <script src="buscaminas2.js"></script>
+</body>
+</html>
